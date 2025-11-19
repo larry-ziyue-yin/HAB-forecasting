@@ -208,9 +208,12 @@ __marimo__/
 
 # Project Specific
 *.nc
+*.tif
 *.dbf
 *.prj
 *.sbn
 *.sbx
 *.shp
 *.shx
+netrc.*
+cookies.*

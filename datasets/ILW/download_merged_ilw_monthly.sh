@@ -2,8 +2,8 @@
 set -euo pipefail
 
 # 用法：
-#   bash merged_ilw_fetch_monthly.sh 2024 CONUS
-#   bash merged_ilw_fetch_monthly.sh 2020-2024 ALASKA 03 10   # 多年 + 选取3-10月
+#   bash download_merged_ilw_monthly.sh 2024 CONUS
+#   bash download_merged_ilw_monthly.sh 2020-2024 ALASKA 03 10   # 多年 + 选取3-10月
 YEARS="$1"                 # 形如 "2024" 或 "2020-2024"
 REG="${2:-CONUS}"          # CONUS | ALASKA
 START_M="${3:-01}"         # 可选：起始月（两位）

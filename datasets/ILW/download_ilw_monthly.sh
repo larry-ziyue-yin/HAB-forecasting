@@ -2,9 +2,9 @@
 set -euo pipefail
 
 # 用法：
-#   bash ilw_fetch_monthly.sh 2024 S3B CONUS
-#   bash ilw_fetch_monthly.sh 2020-2024 S3A ALASKA        # 连续年份区间
-#   bash ilw_fetch_monthly.sh 2024 S3A CONUS 03 10        # 只下 3-10 月
+#   bash download_ilw_monthly.sh 2024 S3B CONUS
+#   bash download_ilw_monthly.sh 2020-2024 S3A ALASKA        # 连续年份区间
+#   bash download_ilw_monthly.sh 2024 S3A CONUS 03 10        # 只下 3-10 月
 #
 # 依赖：
 #   1) Linux GNU date（HPC常见）

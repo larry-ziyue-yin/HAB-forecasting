@@ -2,8 +2,8 @@
 set -euo pipefail
 
 # 用法：
-#   bash merged_ilw_fetch_daily.sh 2024 CONUS
-#   bash merged_ilw_fetch_daily.sh 2021 ALASKA 2021-03-01 2021-05-31   # 可选起止日期
+#   bash download_merged_ilw_daily.sh 2024 CONUS
+#   bash download_merged_ilw_daily.sh 2021 ALASKA 2021-03-01 2021-05-31   # 可选起止日期
 YEAR="${1:-2024}"
 REG="${2:-CONUS}"                 # CONUS | ALASKA
 START_DATE="${3:-${YEAR}-01-01}"  # 可选，默认当年1月1日
