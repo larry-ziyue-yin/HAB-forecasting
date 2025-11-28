@@ -1,2 +1,1 @@
-# HAB-forcasting
-Forecasting Freshwater Algal Bloom Levels Using Multisource Climate and Water-Quality Data
+# HAB-forcasting: Forecasting Freshwater Algal Bloom Levels Using Multisource Climate Data
